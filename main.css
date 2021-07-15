@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20;
+}
+.currency-name {
+  margin: 0 auto;
+}
+fieldset {
+  border: none;
+}
+.currencies {
+  margin: 0 auto;
+  align-items: flex-start;
+}
+.input-currency {
+  margin-right: auto;
+}
+.speed {
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  border-radius: 5px;
+  margin-left: 70px;
+}
+h1::after {
+  position: absolute;
+  content: "";
+  background-image: url(./img/olypics.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+  transform: translate(50%, -30%);
+}
+marquee {
+  margin-top: 30px;
+}

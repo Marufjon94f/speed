@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+      <div class="container">
+    <h1>Kim birinchi borishga Go Go Go</h1>
+    
+
+    <marquee>RESULT <img src="./img/plane.jpg" alt="man" width="50" height="50"><img src="./img/car.jpg" alt="man" width="50" height="50"> <img src="./img/bike.jpg" alt="man" width="50" height="50"> <img src="./img/man.png" alt="man" width="50" height="50"></marquee>
+    <br /><br />
+
+    <form name="converter">
+      <fieldset>
+        <div class="uz">
+          <label>Masofa(km/soat): </label>
+
+          <input type="number" name="km" required />
+          <input class="input"
+            type="button"
+            value="hisobla"
+            onclick="currencyConverter(converter.km.value)"
+          /><br /><br />
+        </div>
+
+        <div class="speed">
+          <div class="box">
+          <label>piyoda: </label>
+          <input class="input-currency" id="p" /><br /><br />
+        <img src="./img/man.png" alt="man" width="150" height="150">
+        </div>
+        
+          <div class="box">
+          <label> velosiped: </label>
+          <input class="input-currency" id="v" /><br /><br />
+          <img src="./img/bike.jpg" alt="man" width="150" height="150">
+        </div>
+          <div class="box">
+          <label>mashina: </label>
+          <input class="input-currency" id="m" /><br /><br />
+          <img src="./img/car.jpg" alt="man" width="150" height="150">
+        </div>
+          <div class="box">
+          <label>samalyot: </label>
+          <input class="input-currency" id="s" /><br /><br />
+          <img src="./img/plane.jpg" alt="man" width="150" height="150">
+        </div>
+
+        </div>
+      </fieldset>
+    </div>
+    </form>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
